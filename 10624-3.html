@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Lists and Titles in HTML
+        </title>
+    </head>
+    <body>
+        <h1>Lists in HTML</h1>
+        <!--
+            Types:
+            1. Ordered List
+            2. Unordered List
+            3. Definition List
+        -->
+            <!--1. Ordered List-->
+            <h3>1. Ordered List</h3>
+            <ol type="i" start="25">
+                <li>C</li><li>C++</li><li>JS</li><li>Py</li>
+            </ol>
+
+            <!--2. Unordered List-->
+            <h3>2. Unordered List</h3>
+            <ul type="square">
+                <li>C</li><li>C++</li><li>JS</li><li>Py</li> 
+            </ul>
+
+            <!--Nested List-->
+             <h4>Nested List</h4>
+             <ol>
+                <li>Languages</li>
+                 <ul>
+                    <li>Computer Languages</li>
+                     <ol>
+                        <li>Js</li>
+                        <li>Java</li>
+                     </ol>
+                 </ul>    
+             </ol>    
+
+             <!--3. Definition List-->
+             <h3>3. Definition List</h3>
+             <dl>
+                <dt>JS</dt>
+                <dd>Java Script</dd>
+
+                <dt>PY</dt>
+                <dd>Python</dd>
+
+                <dt>HTML</dt>
+                <dd>Hyper Text Markup Langauge</dd>
+
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets</dd>
+             </dl> 
+             
+             
+             <h2>Tables in HTML</h2>
+             <table border="2">
+                <caption>Hey its a dummy table</caption>
+                <!--tr: table row-->
+
+                <tr>
+                    <th>C1</th>
+                    <th>C2</th>
+                    <th>C3</th>
+                    <th>C4</th>
+                </tr>
+                <tr>
+                    <!-- td: table data-->
+                     <td rowspan="3">R1, C1</td>
+                     <td>R1, C2</td>
+                     <td>R1, C3</td>
+                     <td>R1, C4</td>
+                </tr>
+
+                <tr>
+                    <!-- td: table data-->
+                     <!--<td>R2, C1</td>--> 
+                     <td>R2, C2</td>
+                     <td>R2, C3</td>
+                     <td>R2, C4</td>
+                </tr>
+
+                <tr>
+                    <!-- td: table data-->
+                    <!--<td>R3, C1</td>--> 
+                     <td>R3, C2</td>
+                     <td>R3, C3</td>
+                     <td>R3, C4</td>
+                </tr>
+
+                <tr>
+                    <!-- td: table data-->
+                     <td>R4, C1</td>
+                     <td>R4, C2</td>
+                     <td>R4, C3</td>
+                     <td>R4, C4</td>
+                </tr>
+             </table>
+
+
+             <h2>Input Tags in HTML</h2>
+             <label for="Name">Name:</label>
+             <input type="text" id="Name" placeholder="Please enter your name" required />
+
+            <br>
+            <br>
+             <label for="pwd">Password:</label>
+             <input type="password" id="pwd" placeholder="Please enter password" required>
+             <br><br>
+             <label>Gender:</label>
+             <input type="radio">
+    </body>
+</html>
+
+<!--
+    Attributes:
+               >> There are things which provide certain set of additional data over here
+               >> Its always present in opening tag
+-->
